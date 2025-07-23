@@ -1,11 +1,11 @@
 """FastAPI program - Part two"""
 
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query, HTTPException
 from sqlalchemy.orm import Session
 from datetime import date
+from fastapi.responses import JSONResponse
 
-
-import crud, schemas
+import crud, schemas, models
 from database import SessionLocal
 
 api_description = """
@@ -54,8 +54,11 @@ def get_db():
     tags=["analytics"],
 )
 async def root():
-    return {"message": "API health check successful"}
-
+    try:
+        return JSONResponse(content={"message": "API health check successful"}, media_type="application/json")
+    except Exception as e:
+         raise HTTPException(status_code=500, detail=str(e)) # Return as JSON payload
+    
 
 @app.get(
     "/v0/players/",
