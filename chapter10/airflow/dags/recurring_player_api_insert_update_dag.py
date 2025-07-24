@@ -37,7 +37,7 @@ def recurring_player_api_insert_update_dag():
         response_check=health_check_response,
     )
 
-    temp_min_last_change_date = Variable.get("temp_min_last_change_date")
+    temp_min_last_change_date = "2025-04-01"
 
     api_player_query_task = HttpOperator(
         task_id="api_player_query",
