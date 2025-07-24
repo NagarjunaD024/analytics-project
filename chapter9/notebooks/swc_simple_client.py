@@ -18,7 +18,6 @@ logger = logging.getLogger(__name__)
     max_time=5,  
     jitter=backoff.random_jitter  
 )
-
 def call_api_endpoint(
     base_url: str,
     api_endpoint: str, 
