@@ -9,4 +9,4 @@
 
 ## Summary
 
-learned to create a data pipeline calling APIs to maintain current data for Analytics Products. Installed and configured Apache Airflow, and created a DAG with multiple tasks to update your database from an API.
+learned to create a data pipelines calling APIs to maintain current data for Analytics Products. Installed and configured Apache Airflow, and created a DAG with multiple tasks to update your database from an API.
