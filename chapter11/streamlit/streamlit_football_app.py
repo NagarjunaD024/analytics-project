@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 
 if 'base_url' not in st.session_state:
-    st.session_state['base_url'] = "[insert your API base URL]" 
+    st.session_state['base_url'] = "https://fuzzy-pancake-g6qvg4574vxfw56j-8000.app.github.dev/" 
 
 logging.basicConfig( 
     filename='football_app.log',  
