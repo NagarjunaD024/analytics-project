@@ -4,7 +4,7 @@ This project demonstrates how to build data pipelines that consume APIs and main
 
 ![Alt text for the image](images/Stream-lit.png)
 
-![Alt text for the image](images/Stream-lit-2.png)
+![Alt text for the image](images/stream-lit-2.png)
 
 ## Overview
 
