@@ -1,8 +1,9 @@
 # Analytics Project: Data Pipelines with APIs
 
-This project demonstrates how to build data pipelines that consume APIs and maintain up-to-date data for analytics products.  
+This project demonstrates how to build data pipelines that consume APIs and maintain up-to-date data for analytics products. 
+
 ![Alt text for the image](images/Stream-lit.png)
-![Alt text for the image](images/images/Stream-lit-2.png)
+![Alt text for the image](images/Stream-lit-2.png)
 
 ## Overview
 
