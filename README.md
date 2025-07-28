@@ -1,4 +1,4 @@
-# Analytics Project: Data Pipelines with APIs
+# Analytics Project: Data Pipelines with APIs and displaying using Streamlit.
 
 This project demonstrates how to build data pipelines that consume APIs and maintain up-to-date data for analytics products. 
 
