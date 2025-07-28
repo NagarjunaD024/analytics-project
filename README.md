@@ -60,7 +60,7 @@ This project draws upon the concepts and code learned in the following chapters:
 
     ```bash
     git clone [YOUR_REPOSITORY_URL]
-    cd analytics-project
+    cd analytics-project/api
     ```
 
 2.  **Create and Activate Virtual Environment:**
@@ -74,7 +74,7 @@ This project draws upon the concepts and code learned in the following chapters:
 3.  **Install Dependencies:**
 
     ```bash
-    pip install -r requirements.txt  # Create requirements.txt if you don't have one
+    pip install -r requirements.txt  
     ```
 
 4.  **Configure Apache Airflow:**
