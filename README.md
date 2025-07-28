@@ -45,14 +45,6 @@ The project explores the following topics:
     [![alt text](https://img.shields.io/badge/Data-pydantic-%23E83A59?logo=python&logoColor=white)](https://pydantic-docs.helpmanual.io/)
 *   **Data Visualization:** [Streamlit](https://streamlit.io/)
 
-## Chapters Covered in the Course
-
-This project draws upon the concepts and code learned in the following chapters:
-
-*   **8. What Data Scientists Should Know About APIs**
-*   **9. Using APIs For Data Analytics**
-*   **10. Using APIs In Data Pipelines**
-*   **11. Using APIs In Streamlit Data Apps**
 
 ## Setup
 
