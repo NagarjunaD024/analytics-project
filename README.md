@@ -1,10 +1,8 @@
 # Analytics Project: Data Pipelines with APIs and displaying using Streamlit.
 
-This project demonstrates how to build data pipelines that consume APIs and maintain up-to-date data for analytics products. 
+This project demonstrates how to build data pipelines that consume APIs and maintain up-to-date data for analytics products. Below is Architecture Diagram of project
 
-![Alt text for the image](images/Stream-lit.png)
-
-![Alt text for the image](images/stream-lit-2.png)
+![Architecture Diagram](images/Architecture_Diagram.png)
 
 ## Overview
 
@@ -87,6 +85,13 @@ The project explores the following topics:
 
     *   Navigate to the `streamlit/` directory.
     *   Run: `streamlit run your_streamlit_app.py`
+  
+    
+## Result
+
+![Team Roosters](images/Stream-lit.png)
+
+![Team stats](images/stream-lit-2.png)
 
 ## Usage
 *   Use the FastAPI to serve custom made APi.
