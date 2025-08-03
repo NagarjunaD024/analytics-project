@@ -70,8 +70,7 @@ The project explores the following topics:
 
     *   Install Airflow.
     *   Set up the Airflow database (as per Airflow documentation).
-    *   Copy the DAG files from the `airflow/` directory to your Airflow DAGs folder.
-    *   Configure Airflow connections for any external APIs or databases used in the project.
+    *  This project uses DAGs to update a SQLite database with data from the SWC API.
 
 5.  **Run the FastAPI Application (SportsWorldCentral API):**
 
@@ -94,8 +93,8 @@ The project explores the following topics:
 ![Team stats](images/stream-lit-2.png)
 
 ## Usage
-*   Use the FastAPI to serve custom made APi.
-*   Examine the Airflow DAGs in the `airflow/` directory to understand how the data pipeline is orchestrated.
+*   Use the FastAPI to serve custom made Api.
+*   Examine the Airflow DAGs in the `airflow/` directory to understand how the data pipeline is orchestrated to update SQLite database(i.e Analytics Database).
 *   Run the Streamlit application to interact with the data and visualizations.
 
 
