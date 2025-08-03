@@ -23,10 +23,6 @@ The project explores the following topics:
  
  ├─ api/ # FastAPI application (SportsWorldCentral API)
  
- ├─ chapter10/ # Source code and notebooks for Chapter 10 (Data Pipelines)
- 
- │  └─ notebooks/ # Jupyter notebooks for exploration and experimentation
- 
  ├─ notebooks/ # General notebooks 
  
  ├─ streamlit/ # Streamlit application code
@@ -56,21 +52,20 @@ The project explores the following topics:
 
     ```bash
     git clone [YOUR_REPOSITORY_URL]
-    cd analytics-project/api
     ```
+ 
 
 2.  **Create and Activate Virtual Environment:**
 
     ```bash
     python -m venv .venv
-    source .venv/bin/activate  # On Linux/macOS
     .venv\Scripts\activate  # On Windows
     ```
 
 3.  **Install Dependencies:**
 
     ```bash
-    pip install -r requirements.txt  
+    pip3 install -r requirements.txt  
     ```
 
 4.  **Configure Apache Airflow:**
@@ -83,7 +78,10 @@ The project explores the following topics:
 5.  **Run the FastAPI Application (SportsWorldCentral API):**
 
     *   Navigate to the `api/` directory.
-    *   Run: `uvicorn main:app --reload`
+    ```bash
+    run fast-api main.py 
+    ```
+    *   update base_url after running api and update in Streamlit
 
 6.  **Run the Streamlit Application:**
 
@@ -91,12 +89,11 @@ The project explores the following topics:
     *   Run: `streamlit run your_streamlit_app.py`
 
 ## Usage
-
-*   Explore the Jupyter notebooks in the `chapter10/notebooks/` directory to understand the data analysis and API consumption steps.
+*   Use the FastAPI to serve custom made APi.
 *   Examine the Airflow DAGs in the `airflow/` directory to understand how the data pipeline is orchestrated.
 *   Run the Streamlit application to interact with the data and visualizations.
-*   Use the FastAPI to serve custom made APi.
+
 
 ## Summary
 
-This project demonstrates how to leverage APIs to create data pipelines for analytics products. It covers key concepts such as API consumption, data transformation, workflow orchestration with Apache Airflow, and interactive data visualization with Streamlit. By completing this project, you'll gain practical experience in building end-to-end data solutions that integrate with external data sources.
+This project demonstrates how to leverage APIs to create data pipelines for analytics products. It covers key concepts such as API consumption, data transformation, workflow orchestration with Apache Airflow, and interactive data visualization with Streamlit. By completing this I had gained  practical experience in building end-to-end data solutions that integrate with external data sources.
